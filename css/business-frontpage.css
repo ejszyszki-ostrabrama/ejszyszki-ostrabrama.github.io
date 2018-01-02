@@ -37,3 +37,15 @@ li.nav-item.active{
 li.nav-item:hover{
 	background-color: #ccc;
 }
+.business-header-onas {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/plakatas.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.onas{
+    text-align: justify;
+}
