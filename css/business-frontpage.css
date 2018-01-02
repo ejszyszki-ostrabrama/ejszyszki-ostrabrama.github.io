@@ -46,6 +46,24 @@ li.nav-item:hover{
     background-size: auto;
     -o-background-size: auto;
 }
+.business-header-wskazowki {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/evangelija.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.business-header-marek {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/marek.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
 .onas{
     text-align: justify;
 }
