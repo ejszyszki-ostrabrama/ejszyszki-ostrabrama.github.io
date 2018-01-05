@@ -20,6 +20,15 @@
 
   <body>
 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=795898857225737';
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
@@ -29,6 +38,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+
             <li class="nav-item active">
               <a class="nav-link" href="#">Aktualności
                 <span class="sr-only">(current)</span>
@@ -58,6 +68,12 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html"><img src="css/images/pl.jpg" alt="pl" width="48px" height="32px"> </a>
             </li>
+           
+            <li class="nav-item">
+              <a target="_blank" href="https://www.facebook.com/groups/123381584419824/"> <i class="fa fa-facebook-official" style="font-size:44px"></i></a>
+            </li>
+
+      
           </ul>
         </div>
       </div>
@@ -65,7 +81,8 @@
 
 	<p><center>
           <h1>Pielgrzymka Miłosierdzia Ejszyszki-Ostra Brama</h1>
-      <h4 style="color: grey">Rejestracja nr. tel. +370 674 96 977 (dzwonić wieczorem), Wiktor Kudriaszow +370 677 55685, <a target="_blank" href="https://www.facebook.com/groups/123381584419824/"> <i class="fa fa-facebook-official" style="font-size:36px"></i></a></h4>
+      <h4 style="color: grey">Rejestracja nr. tel. +370 674 96 977 (dzwonić wieczorem), Wiktor Kudriaszow +370 677 55685,    <div class="fb-share-button" data-href="https://ejszyszki-ostrabrama.github.io/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fejszyszki-ostrabrama.github.io%2F&amp;src=sdkpreparse">Bendrinti</a></div>
+      </h4>
     </center>
 		</p>
     <!-- Header with Background Image -->
