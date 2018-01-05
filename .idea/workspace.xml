@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/Plakat-2017.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/katedra.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/kontaktai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/modlitwa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/program_i_trasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/rozinis.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duchowie_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/galeria_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kontakty_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/onas_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_leidimas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_plakatas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/program_i_trasa_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/plakatas.jpg" afterPath="$PROJECT_DIR$/css/images/plakatas.jpg" />
+    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/business-frontpage.css" afterPath="$PROJECT_DIR$/css/business-frontpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duchowie.html" afterPath="$PROJECT_DIR$/duchowie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galeria.html" afterPath="$PROJECT_DIR$/galeria.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty.html" afterPath="$PROJECT_DIR$/kontakty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modlitwy.html" afterPath="$PROJECT_DIR$/modlitwy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onas.html" afterPath="$PROJECT_DIR$/onas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_i_trasa.html" afterPath="$PROJECT_DIR$/program_i_trasa.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -143,8 +120,8 @@
       <file leaf-file-name="galeria_lt.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galeria_lt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="371">
+              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#h4#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -364,7 +341,7 @@
       <workItem from="1514907302989" duration="669000" />
       <workItem from="1514922388895" duration="9485000" />
       <workItem from="1515017811671" duration="21000" />
-      <workItem from="1515130304192" duration="9786000" />
+      <workItem from="1515130304192" duration="9857000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1514898013596</created>
@@ -380,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514928114252</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lietuviu kalba ir aprasas pradzia">
+      <created>1515140119789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515140119789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21040000" />
+    <option name="totallyTimeSpent" value="21111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -417,7 +401,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Lietuviu kalba ir aprasas pradzia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lietuviu kalba ir aprasas pradzia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -990,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/galeria_lt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="371">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#0;n#h4#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
