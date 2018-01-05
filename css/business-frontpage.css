@@ -64,6 +64,61 @@ li.nav-item:hover{
     background-size: auto;
     -o-background-size: auto;
 }
+.business-header-program_i_trasa {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/program_i_trasa.png') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.business-header-modlitwa {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/modlitwa.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.business-header-modlitwa-bottom {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/rozinis.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.business-header-duchowie {
+    height: 450px;
+    min-height: 450px;
+    background: url('images/katedra.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+.business-header-kontakty {
+    height: 333px;
+    min-height: 333px;
+    background: url('images/kontaktai.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+
+.business-header-post_plakatas {
+    height: 100%;
+    min-height: 779px;
+    background: url('images/Plakat-2017.jpg') center center no-repeat scroll;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
 .onas{
     text-align: justify;
 }
