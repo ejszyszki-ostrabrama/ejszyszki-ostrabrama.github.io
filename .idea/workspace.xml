@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/marek_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_leidimas_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_plakatas_lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post_wskazowki_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duchowie_lt.html" afterPath="$PROJECT_DIR$/duchowie_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galeria_lt.html" afterPath="$PROJECT_DIR$/galeria_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_lt.html" afterPath="$PROJECT_DIR$/index_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty.html" afterPath="$PROJECT_DIR$/kontakty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty_lt.html" afterPath="$PROJECT_DIR$/kontakty_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modlitwy_lt.html" afterPath="$PROJECT_DIR$/modlitwy_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onas_lt.html" afterPath="$PROJECT_DIR$/onas_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_plakatas.html" afterPath="$PROJECT_DIR$/post_plakatas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_i_trasa_lt.html" afterPath="$PROJECT_DIR$/program_i_trasa_lt.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,14 +26,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="duchowie_lt.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="duchowie_lt.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/duchowie_lt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="371">
+              <caret line="90" column="477" lean-forward="false" selection-start-line="90" selection-start-column="477" selection-end-line="90" selection-end-column="477" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_lt.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_lt.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_lt.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2430">
@@ -229,13 +215,13 @@
         <option value="$PROJECT_DIR$/program_i_trasa_lt.html" />
         <option value="$PROJECT_DIR$/modlitwy_lt.html" />
         <option value="$PROJECT_DIR$/galeria_lt.html" />
-        <option value="$PROJECT_DIR$/duchowie_lt.html" />
         <option value="$PROJECT_DIR$/kontakty_lt.html" />
         <option value="$PROJECT_DIR$/index_lt.html" />
         <option value="$PROJECT_DIR$/post_plakatas_lt.html" />
         <option value="$PROJECT_DIR$/post_wskazowki_lt.html" />
         <option value="$PROJECT_DIR$/post_leidimas_lt.html" />
         <option value="$PROJECT_DIR$/marek_lt.html" />
+        <option value="$PROJECT_DIR$/duchowie_lt.html" />
       </list>
     </option>
   </component>
@@ -253,7 +239,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="814" />
     <option name="y" value="141" />
     <option name="width" value="890" />
@@ -347,7 +333,7 @@
       <workItem from="1514907302989" duration="669000" />
       <workItem from="1514922388895" duration="9485000" />
       <workItem from="1515017811671" duration="21000" />
-      <workItem from="1515130304192" duration="13224000" />
+      <workItem from="1515130304192" duration="13388000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1514898013596</created>
@@ -374,10 +360,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24478000" />
+    <option name="totallyTimeSpent" value="24642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -881,17 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duchowie_lt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kontakty_lt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1003,6 +978,16 @@
         <state relative-caret-position="2430">
           <caret line="135" column="30" lean-forward="false" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duchowie_lt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="90" column="477" lean-forward="false" selection-start-line="90" selection-start-column="477" selection-end-line="90" selection-end-column="477" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
