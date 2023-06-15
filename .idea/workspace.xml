@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duchowie.html" afterPath="$PROJECT_DIR$/duchowie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duchowie_lt.html" afterPath="$PROJECT_DIR$/duchowie_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galeria.html" afterPath="$PROJECT_DIR$/galeria.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galeria_lt.html" afterPath="$PROJECT_DIR$/galeria_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_lt.html" afterPath="$PROJECT_DIR$/index_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty.html" afterPath="$PROJECT_DIR$/kontakty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty_lt.html" afterPath="$PROJECT_DIR$/kontakty_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marek.html" afterPath="$PROJECT_DIR$/marek.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marek_lt.html" afterPath="$PROJECT_DIR$/marek_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modlitwy.html" afterPath="$PROJECT_DIR$/modlitwy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modlitwy_lt.html" afterPath="$PROJECT_DIR$/modlitwy_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onas.html" afterPath="$PROJECT_DIR$/onas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onas_lt.html" afterPath="$PROJECT_DIR$/onas_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_leidimas.html" afterPath="$PROJECT_DIR$/post_leidimas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_leidimas_lt.html" afterPath="$PROJECT_DIR$/post_leidimas_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_plakatas.html" afterPath="$PROJECT_DIR$/post_plakatas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_plakatas_lt.html" afterPath="$PROJECT_DIR$/post_plakatas_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_popiezius.html" afterPath="$PROJECT_DIR$/post_popiezius.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_popiezius_lt.html" afterPath="$PROJECT_DIR$/post_popiezius_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_wskazowki.html" afterPath="$PROJECT_DIR$/post_wskazowki.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_wskazowki_lt.html" afterPath="$PROJECT_DIR$/post_wskazowki_lt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_i_trasa.html" afterPath="$PROJECT_DIR$/program_i_trasa.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_i_trasa_lt.html" afterPath="$PROJECT_DIR$/program_i_trasa_lt.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/plakat2021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/plakat2021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duchowie.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duchowie_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juozapas_good.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapas_good.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juozapo_metai.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapo_metai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juozapo_metai_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapo_metai_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakty.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakty_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marek.html" beforeDir="false" afterPath="$PROJECT_DIR$/marek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marek_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/marek_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modlitwy.html" beforeDir="false" afterPath="$PROJECT_DIR$/modlitwy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modlitwy_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/modlitwy_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onas.html" beforeDir="false" afterPath="$PROJECT_DIR$/onas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/onas_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_leidimas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_leidimas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_leidimas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_leidimas_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_plakatas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_plakatas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_plakatas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_plakatas_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_popiezius.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_popiezius.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_popiezius_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_popiezius_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_wskazowki.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_wskazowki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_wskazowki_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_wskazowki_lt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program_i_trasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/program_i_trasa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program_i_trasa_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/program_i_trasa_lt.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,6 +207,9 @@
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
@@ -213,6 +218,7 @@
     <option name="width" value="890" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectId" id="2REYFwiW2w43n4LMRavspb8ONoP" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -248,16 +254,28 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Marius/Documents/GitHub/ejszyszki-ostrabrama.github.io/marek_lt.html" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/SideProjects/ejszyszki-ostrabrama.github.io/css/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SideProjects\ejszyszki-ostrabrama.github.io\css\images" />
       <recent name="C:\Users\Marius\Documents\GitHub\ejszyszki-ostrabrama.github.io\css\images" />
       <recent name="C:\Users\Marius\Documents\GitHub\ejszyszki-ostrabrama.github.io" />
       <recent name="C:\Users\Marius\Documents\GitHub\ejszyszki-ostrabrama.github.io\posts" />
@@ -266,21 +284,7 @@
       <recent name="C:\Users\Marius\Documents\GitHub\ejszyszki-ostrabrama.github.io" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -304,6 +308,7 @@
       <workItem from="1527852980411" duration="11000" />
       <workItem from="1529947869846" duration="2502000" />
       <workItem from="1530262673983" duration="2247000" />
+      <workItem from="1686816609030" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1514898013596</created>
@@ -370,20 +375,13 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Lietuviu kalba ir aprasas pradzia" />
     <MESSAGE value="facebook share opcija" />
     <option name="LAST_COMMIT_MESSAGE" value="facebook share opcija" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
