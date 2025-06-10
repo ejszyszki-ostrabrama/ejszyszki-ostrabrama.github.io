@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="">
+    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/images/plakat2021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/plakat2021.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/duchowie.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/duchowie_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie_lt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
@@ -333,7 +332,7 @@
       <workItem from="1529947869846" duration="2502000" />
       <workItem from="1530262673983" duration="2247000" />
       <workItem from="1686816609030" duration="3527000" />
-      <workItem from="1749578583727" duration="1487000" />
+      <workItem from="1749578583727" duration="2691000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1514898013596</created>
@@ -370,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1527777748415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1749580102206</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749580102206</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -406,7 +413,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Lietuviu kalba ir aprasas pradzia" />
     <MESSAGE value="facebook share opcija" />
-    <option name="LAST_COMMIT_MESSAGE" value="facebook share opcija" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
