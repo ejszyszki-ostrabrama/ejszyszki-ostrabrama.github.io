@@ -1,208 +1,598 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Pielgrzymka Milosierdzia Ejszyszki-Ostra Brama</title>
 
-    <title>Pielgrzymka Milosierdzia Ejszyszki-Ostra Brama</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+  <style>
+    /* Hide header image on mobile */
+    @media (max-width: 767.98px) {
+      .business-header {
+        display: none !important;
+      }
+    }
 
-  <body>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.11&appId=1027624614045086';
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Aktualijos
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="onas_lt.html">Apie mus</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="program_i_trasa_lt.html">Piligrimystės programa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="modlitwy_lt.html">Maldos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galeria_lt.html">Galerija</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="duchowie_lt.html">Dvasinė piligrimystė</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kontakty_lt.html">Kontaktai</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index_lt.html"><img src="css/images/lt.png" alt="lietuviškai" width="48px" height="32px"> </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><img src="css/images/pl.jpg" alt="pl" width="48px" height="32px"> </a>
-            </li>
-            <li class="nav-item">
-              <a target="_blank" href="https://www.facebook.com/groups/123381584419824/"> <i class="fa fa-facebook-official" style="font-size:44px"></i></a>
-            </li>
-          <li class="nav-item">
-  <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/"> <i class="fa fa-instagram" style="font-size:44px; margin-left: 10px; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); -webkit-background-clip: text; background-clip: text; color: transparent;"></i></a>
-</li>
-</ul>
-        </div>
-      </div>
-    </nav>
+    /* Mobile header text optimization */
+    .mobile-header {
+      padding: 15px 10px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-bottom: 3px solid #007bff;
+      margin-bottom: 15px;
+    }
 
-	<p><center>
-          <h1>Piligriminis žygis Eišiškės-Aušros vartai</h1>
-    <h4 style="color: grey">Registracija privaloma visiems +37064622113, <span><a target="_blank"
-                                                                               href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
-                                                                               class="btn btn-primary">registracija
-        online</a></span>,Organizatorius kun. Waldemar Szyrwinski <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a> <a
-            target="_blank" href="https://www.facebook.com/groups/123381584419824/"> <i class="fa fa-facebook-official" style="font-size:36px"></i></a></h4>    </center>
-		</p>
-    <!-- Header with Background Image -->
-    <header class="business-header">
+    .mobile-header h1 {
+      font-size: 1.4rem;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
 
-      <div class="container">
+    .mobile-header .contact-info {
+      font-size: 0.75rem;
+      line-height: 1.3;
+      color: #6c757d;
+      margin-bottom: 8px;
+    }
 
-        <div class="row">
+    .mobile-header .btn {
+      font-size: 0.7rem;
+      padding: 4px 12px;
+      margin: 2px;
+    }
 
-          <div class="col-lg-12">
+    .mobile-header .organizer-info {
+      font-size: 0.7rem;
+      color: #495057;
+      margin-top: 5px;
+    }
 
-          </div>
-        </div>
-      </div>
-    </header>
+    /* Desktop header styling */
+    .desktop-header {
+      padding: 20px 0;
+    }
 
-    <!-- Page Content -->
-    <div class="container">
+    .desktop-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
 
-      <br/>
-      <img src="css/images/plakat2021.jpg" width="100%" style="border:1px solid #cccccc;">
+    /* Plakat styling */
+    .plakat-container {
+      position: relative;
+      margin-bottom: 1rem;
+    }
 
+    .plakat-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-      <iframe src="https://docs.google.com/document/d/e/2PACX-1vRI30JqSs_m1pZp60kC-v0JHhEgWd4YUwxzcNN67MdqzhdI7ODJ_F3uvbS13qB23fT64uYeGnBaxKUS/pub?embedded=true" width="100%" height="1400px" style="border: 1px solid #ccc;"></iframe>
+    /* Mobile quick info overlay */
+    .mobile-quick-info {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      z-index: 10;
+    }
 
+    .quick-info-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
 
-      <div class="row">
+    .quick-info-card h5 {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
 
+    .quick-info-card .btn {
+      margin: 2px;
+      min-width: 100px;
+      font-size: 0.75rem;
+      padding: 6px 12px;
+    }
 
+    /* Mobile info card */
+    .mobile-info-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 4px solid #007bff;
+    }
 
+    .mobile-text-content {
+      line-height: 1.4;
+    }
 
+    .mobile-text-content .lead {
+      font-size: 1rem;
+      font-weight: 500;
+    }
 
+    .mobile-text-content p {
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="juozapo_metai_lt.html"> <img class="card-img-top" src="css/images/juozapas_1_lt.PNG" alt=""></a>
-            <div class="card-body">
-              <a href="juozapo_metai_lt.html">  <h4 class="card-title">Apie Šventojo Juozapo metus</h4></a>
-              <p class="card-text">
-                „Mylimas tėvas, švelnus, klusnus Dievui, visus priimantis, kūrybingas, darbštus, liekantis šešėlyje“ – šiais žodžiais popiežius Pranciškus apibūdina šventąjį Juozapą, skelbdamas jam skirtus metus, kurie visoje Bažnyčioje pradėti minėti 2020 metų gruodžio 8 d. ir tęsis iki 2021 m. gruodžio 8 d.
+    /* Enhanced cards for mobile */
+    .card {
+      transition: transform 0.2s ease-in-out;
+    }
 
-              </p>
-            </div>
+    .card:hover {
+      transform: translateY(-2px);
+    }
 
-          </div>
-        </div>
+    .card-img-top {
+      height: 180px;
+      object-fit: cover;
+    }
 
+    /* Mobile social icons styling */
+    .mobile-social-icons {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 15px;
+    }
 
+    .mobile-social-link {
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
 
+    .mobile-social-link:hover {
+      transform: scale(1.1);
+      text-decoration: none;
+    }
 
+    /* Mobile responsive improvements */
+    @media (max-width: 991.98px) {
+      .navbar-toggler {
+        order: 1;
+      }
 
+      .mobile-social-icons {
+        order: 2;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_wskazowki_lt.html"> <img class="card-img-top" src="css/images/instrukcija.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_wskazowki_lt.html">  <h4 class="card-title">Ką reikia žinoti ruošiantis piligriminiam žygiui?</h4></a>
-              <p class="card-text">
-                Piligriminio žygio tikslas – garbinti Dievą už gyvenimą (jaunystę ir visas gyvenimo dovanas) bei tikėjimą ir tai daryti kartu su Marija, šventaisiais ir žmonėmis, kurie eis kartu ir mus pasitiks
+      .navbar-brand {
+        order: 0;
+      }
+    }
 
-              </p>
-            </div>
+    @media (max-width: 767.98px) {
+      .container {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
 
-          </div>
-        </div>
+      .plakat-image {
+        border-radius: 4px;
+      }
 
+      .mobile-quick-info {
+        position: static;
+        margin-top: 10px;
+      }
 
+      .quick-info-card {
+        background: #fff;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_leidimas_lt.html"><img class="card-img-top" src="css/images/sutikimas.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_leidimas_lt.html"> <h4 class="card-title">Tėvų/globėjų leidimas dalyvauti piligriminiame žygyje Eišiškės-Aušros Vartai</h4></a>
-              <p class="card-text">Leidimą reikia turėti su savimi ir parodyti registruojantiems </p>
-            </div>
+      .card-title {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
 
-          </div>
-        </div>
+      .card-text {
+        font-size: 0.85rem;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_popiezius_lt.html"><img class="card-img-top" src="css/images/popiezius.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_popiezius_lt.html"><h4 class="card-title">Popiežius Pranciškus Lietuvoje
-                2018-09-22 ir 23 dienomis</h4></a>
-              <p class="card-text"> „Popiežius atvažiuoja pirmiausia ne pas valdžios žmones, o pas tikinčiuosius, pirmiausia susitikti su tikinčiaisiais, Lietuvos gyventojais“, – pristatydamas Šventojo Tėvo vizitą per spaudos konferenciją Vilniuje sakė Lietuvos vyskupų konferencijos pirmininkas arkivyskupas Gintaras Grušas.    </div>
+      .btn-sm {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+      }
 
-          </div>
-        </div>
+      .navbar-collapse .nav-item {
+        text-align: center;
+        padding: 3px 0;
+      }
 
-		  <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="marek_lt.html">   <img class="card-img-top" src="css/images/marek2.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="marek_lt.html"> <h4 class="card-title">Dėkojame Dievui – Gyvybės Davėjui už a.a. kun. Mareką ir prisimename jį piligriminio žygio metu</h4></a>
-              <p class="card-text">Dėkojame Dievui – Gyvybės Davėjui už a.a. kun. Mareką ir prisimename Jį piligriminio žygio metu 2016 metų gruodžio 14 dieną, vėlai vakare, mirė sunkiai sirgęs kunigas, Vilniaus Šv. Kryžiaus Atradimo (Kalvarijų) parapijos vikaras Marek Butkevič.</p>
-            </div>
+      /* Smaller cards on mobile */
+      .card-img-top {
+        height: 150px;
+      }
 
-          </div>
-        </div>
+      .card-body {
+        padding: 12px;
+      }
+    }
 
+    @media (max-width: 575.98px) {
+      .quick-info-card .btn {
+        display: block;
+        width: 100%;
+        margin: 3px 0;
+        min-width: auto;
+        font-size: 0.8rem;
+      }
 
-      </div>
-      <!-- /.row -->
+      .mobile-header h1 {
+        font-size: 1.2rem;
+      }
 
-      <!-- /.row -->
+      .mobile-header .contact-info {
+        font-size: 0.7rem;
+      }
+
+      .mobile-header .btn {
+        font-size: 0.65rem;
+        padding: 3px 8px;
+      }
+    }
+
+    /* Desktop social icons hover effect */
+    @media (min-width: 992px) {
+      .nav-item a i.fa-facebook-official:hover {
+        color: #1465c9 !important;
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
+
+      .nav-item a i.fa-instagram:hover {
+        color: #c13584 !important;
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
+    }
+
+    /* Landscape phone optimization */
+    @media (max-width: 767.98px) and (orientation: landscape) {
+      .mobile-quick-info {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+      }
+
+      .quick-info-card {
+        padding: 8px;
+        background: rgba(255, 255, 255, 0.9);
+      }
+
+      .quick-info-card h5 {
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+      }
+
+      .quick-info-card .btn {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.11&appId=1027624614045086';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+
+    <!-- Mobile toggler button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Social media icons for mobile (visible only on mobile) -->
+    <div class="d-lg-none mobile-social-icons">
+      <a target="_blank" href="https://www.facebook.com/groups/123381584419824/" class="mobile-social-link">
+        <i class="fa fa-facebook-official" style="font-size:24px; color: #1877f2; margin-right: 8px;"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/" class="mobile-social-link">
+        <i class="fa fa-instagram" style="font-size:24px; color: #e4405f;"></i>
+      </a>
     </div>
-    <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Ejszyszki-Ostra Brama</p>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Aktualijos
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="onas_lt.html">Apie mus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program_i_trasa_lt.html">Piligrimystės programa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="modlitwy_lt.html">Maldos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria_lt.html">Galerija</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="duchowie_lt.html">Dvasinė piligrimystė</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakty_lt.html">Kontaktai</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index_lt.html">
+            <img src="css/images/lt.png" alt="lietuviškai" width="48px" height="32px">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img src="css/images/pl.jpg" alt="pl" width="48px" height="32px">
+          </a>
+        </li>
+
+        <!-- Social media icons for desktop (hidden on mobile) -->
+        <li class="nav-item d-none d-lg-block">
+          <a target="_blank" href="https://www.facebook.com/groups/123381584419824/">
+            <i class="fa fa-facebook-official" style="font-size:44px; color: #1877f2;"></i>
+          </a>
+        </li>
+        <li class="nav-item d-none d-lg-block">
+          <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/">
+            <i class="fa fa-instagram" style="font-size:44px; margin-left: 10px; color: #e4405f;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Header (visible only on mobile) -->
+<div class="d-lg-none mobile-header">
+  <div class="container">
+    <h1 class="text-center">Piligriminis žygis Eišiškės-Aušros vartai</h1>
+    <div class="contact-info text-center">
+      <strong>Privaloma registracija:</strong> +370 646 22113<br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+         target="_blank"
+         class="btn btn-primary btn-sm">
+        Registracija online
+      </a>
+    </div>
+    <div class="organizer-info text-center">
+      <strong>Organizatorius:</strong> kun. Waldemar Szyrwinski<br>
+      <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop Header (visible only on desktop) -->
+<div class="d-none d-lg-block desktop-header">
+  <div class="container text-center">
+    <h1>Piligriminis žygis Eišiškės-Aušros vartai</h1>
+    <h4 style="color: grey">
+      Registracija privaloma visiems +37064622113,
+      <span><a target="_blank"
+               href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+               class="btn btn-primary">registracija online</a></span>,
+      Organizatorius kun. Waldemar Szyrwinski <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a>
+      <a target="_blank" href="https://www.facebook.com/groups/123381584419824/">
+        <i class="fa fa-facebook-official" style="font-size:36px"></i>
+      </a>
+    </h4>
+  </div>
+</div>
+
+<!-- Header with Background Image (desktop only) -->
+<header class="business-header d-none d-lg-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
       </div>
-      <!-- /.container -->
-    </footer>
+    </div>
+  </div>
+</header>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Page Content -->
+<div class="container">
 
-  </body>
+  <!-- Mobile-first plakat section -->
+  <div class="row mt-2">
+    <div class="col-12">
+      <div class="plakat-container">
+        <img src="css/images/plakat2021.jpg"
+             class="img-fluid plakat-image"
+             alt="Piligriminis žygis Eišiškės-Aušros vartai 2021"
+             loading="lazy">
+
+        <!-- Quick info overlay for mobile -->
+        <div class="mobile-quick-info d-lg-none">
+          <div class="quick-info-card">
+            <h5 class="text-primary">Greitas kontaktas</h5>
+            <a href="tel:+37064622113" class="btn btn-success btn-sm">
+              <i class="fa fa-phone"></i> Skambinti
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+               target="_blank"
+               class="btn btn-primary btn-sm">
+              <i class="fa fa-edit"></i> Registruotis
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile-optimized current information -->
+  <div class="row mt-2 d-lg-none">
+    <div class="col-12">
+      <div class="mobile-info-card">
+        <h4 class="text-center text-primary mb-2" style="font-size: 1.1rem;">Aktualijos 2025</h4>
+        <div class="mobile-text-content">
+          <p class="lead text-center">
+            <strong>XXXV piligriminis žygis pėsčiomis</strong>
+          </p>
+          <p class="text-center">
+            <strong>Data:</strong> 2025 liepa<br>
+            <strong>Maršrutas:</strong> Eišiškės → Aušros Vartai<br>
+            <strong>Kontaktas:</strong> kun. Waldemar Szyrwinski
+          </p>
+          <div class="text-center mt-2">
+            <a href="post_wskazowki_lt.html" class="btn btn-outline-info btn-sm">
+              <i class="fa fa-info-circle"></i> Nurodymai
+            </a>
+            <a href="program_i_trasa_lt.html" class="btn btn-outline-primary btn-sm">
+              <i class="fa fa-map"></i> Programa
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full Google Doc iframe for desktop -->
+  <div class="row d-none d-lg-block">
+    <div class="col-12">
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vRI30JqSs_m1pZp60kC-v0JHhEgWd4YUwxzcNN67MdqzhdI7ODJ_F3uvbS13qB23fT64uYeGnBaxKUS/pub?embedded=true"
+              width="100%"
+              height="1400px"
+              style="border: 1px solid #ccc;">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Cards section - improved for mobile -->
+  <div class="row mt-3">
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="juozapo_metai_lt.html">
+          <img class="card-img-top" src="css/images/juozapas_1_lt.PNG" alt="Šventojo Juozapo metai">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="juozapo_metai_lt.html">
+            <h5 class="card-title">Šventojo Juozapo metai</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Popiežius Pranciškus paskelbė ypatingus metus, skirtus šv. Juozapui.
+          </p>
+          <a href="juozapo_metai_lt.html" class="btn btn-outline-primary btn-sm mt-auto">Skaityti daugiau</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_wskazowki_lt.html">
+          <img class="card-img-top" src="css/images/instrukcija.jpg" alt="Nurodymai">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_wskazowki_lt.html">
+            <h5 class="card-title">Piligrimų nurodymai</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Kaip pasiruošti piligriminiam žygiui ir ką pasiimti.
+          </p>
+          <a href="post_wskazowki_lt.html" class="btn btn-outline-primary btn-sm mt-auto">Skaityti daugiau</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_leidimas_lt.html">
+          <img class="card-img-top" src="css/images/sutikimas.jpg" alt="Leidimas">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_leidimas_lt.html">
+            <h5 class="card-title">Tėvų leidimas</h5>
+          </a>
+          <p class="card-text flex-grow-1">Sutikimo forma nepilnamečiams piligrimams</p>
+          <a href="post_leidimas_lt.html" class="btn btn-outline-primary btn-sm mt-auto">Atsisiųsti</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_popiezius_lt.html">
+          <img class="card-img-top" src="css/images/popiezius.jpg" alt="Popiežius">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_popiezius_lt.html">
+            <h5 class="card-title">Popiežius Lietuvoje</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Šventojo Tėvo Pranciškaus vizitas Lietuvoje 2018 metais.
+          </p>
+          <a href="post_popiezius_lt.html" class="btn btn-outline-primary btn-sm mt-auto">Skaityti daugiau</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="marek_lt.html">
+          <img class="card-img-top" src="css/images/marek2.jpg" alt="Kun. Marekas">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="marek_lt.html">
+            <h5 class="card-title">Kun. Mareko atminimas</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Atsiminimai apie kunigą, organizavusį piligrimynes.
+          </p>
+          <a href="marek_lt.html" class="btn btn-outline-primary btn-sm mt-auto">Skaityti daugiau</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Ejszyszki-Ostra Brama</p>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
 
 </html>

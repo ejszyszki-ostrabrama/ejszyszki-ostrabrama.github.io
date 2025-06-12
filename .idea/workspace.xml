@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="update">
+    <list default="true" id="00cade66-1283-4c8d-baa3-c331a73d5581" name="Default" comment="instagram added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duchowie.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duchowie_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/duchowie_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria_lt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juozapas_good.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapas_good.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juozapo_metai.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapo_metai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juozapo_metai_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/juozapo_metai_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakty.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakty_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marek.html" beforeDir="false" afterPath="$PROJECT_DIR$/marek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marek_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/marek_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modlitwy.html" beforeDir="false" afterPath="$PROJECT_DIR$/modlitwy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modlitwy_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/modlitwy_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onas.html" beforeDir="false" afterPath="$PROJECT_DIR$/onas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/onas_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_leidimas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_leidimas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_leidimas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_leidimas_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_plakatas.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_plakatas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_plakatas_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_plakatas_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_popiezius.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_popiezius.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_popiezius_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_popiezius_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_wskazowki.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_wskazowki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_wskazowki_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/post_wskazowki_lt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program_i_trasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/program_i_trasa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program_i_trasa_lt.html" beforeDir="false" afterPath="$PROJECT_DIR$/program_i_trasa_lt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,18 +136,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "eif-courses"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eif-courses&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ejszyszki-ostrabrama/ejszyszki-ostrabrama.github.io.git",
-    "accountId": "116dccc3-c6ff-4109-ac18-c84939d6c426"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ejszyszki-ostrabrama/ejszyszki-ostrabrama.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;116dccc3-c6ff-4109-ac18-c84939d6c426&quot;
   }
-}]]></component>
+}</component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -224,9 +199,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="679" />
     <option name="width" value="890" />
@@ -272,22 +247,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programos/recovery/ejszyszki-ostrabrama.github.io/css/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programos/recovery/ejszyszki-ostrabrama.github.io/css/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programos\recovery\ejszyszki-ostrabrama.github.io\css\images" />
@@ -332,7 +307,8 @@
       <workItem from="1529947869846" duration="2502000" />
       <workItem from="1530262673983" duration="2247000" />
       <workItem from="1686816609030" duration="3527000" />
-      <workItem from="1749578583727" duration="2691000" />
+      <workItem from="1749578583727" duration="3006000" />
+      <workItem from="1749735356565" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1514898013596</created>
@@ -377,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749580102206</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="instagram added">
+      <option name="closed" value="true" />
+      <created>1749581339263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749581339263</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -414,7 +398,8 @@
     <MESSAGE value="Lietuviu kalba ir aprasas pradzia" />
     <MESSAGE value="facebook share opcija" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="instagram added" />
+    <option name="LAST_COMMIT_MESSAGE" value="instagram added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">

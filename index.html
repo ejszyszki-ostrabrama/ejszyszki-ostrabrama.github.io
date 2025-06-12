@@ -1,222 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Pielgrzymka Milosierdzia Ejszyszki-Ostra Brama</title>
 
-    <title>Pielgrzymka Milosierdzia Ejszyszki-Ostra Brama</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+  <style>
+    /* Hide header image on mobile */
+    @media (max-width: 767.98px) {
+      .business-header {
+        display: none !important;
+      }
+    }
 
-  <body>
+    /* Mobile header text optimization */
+    .mobile-header {
+      padding: 15px 10px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-bottom: 3px solid #007bff;
+      margin-bottom: 15px;
+    }
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=795898857225737';
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    .mobile-header h1 {
+      font-size: 1.4rem;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+    .mobile-header .contact-info {
+      font-size: 0.75rem;
+      line-height: 1.3;
+      color: #6c757d;
+      margin-bottom: 8px;
+    }
 
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Aktualności
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="onas.html">O nas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="program_i_trasa.html">Program i trasa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="modlitwy.html">Modlitwy pielgrzyma</a>
-            </li>
-			 <li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galeria</a>
-            </li>
-			 <li class="nav-item">
-              <a class="nav-link" href="duchowie.html">Duchowe pielgrzymowanie</a>
-            </li>
-			 <li class="nav-item">
-              <a class="nav-link" href="kontakty.html">Kontakty</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index_lt.html"><img src="css/images/lt.png" alt="lietuviškai" width="48px" height="32px"> </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><img src="css/images/pl.jpg" alt="pl" width="48px" height="32px"> </a>
-            </li>
+    .mobile-header .btn {
+      font-size: 0.7rem;
+      padding: 4px 12px;
+      margin: 2px;
+    }
 
-            <li class="nav-item">
-              <a target="_blank" href="https://www.facebook.com/groups/123381584419824/"> <i class="fa fa-facebook-official" style="font-size:44px"></i></a>
-            </li>
+    .mobile-header .organizer-info {
+      font-size: 0.7rem;
+      color: #495057;
+      margin-top: 5px;
+    }
 
+    /* Desktop header styling */
+    .desktop-header {
+      padding: 20px 0;
+    }
 
-          <li class="nav-item">
-  <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/"> <i class="fa fa-instagram" style="font-size:44px; margin-left: 10px; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); -webkit-background-clip: text; background-clip: text; color: transparent;"></i></a>
-</li>
-</ul>
-        </div>
-      </div>
-    </nav>
+    .desktop-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
 
-	<p><center>
-          <h1>Pielgrzymka Miłosierdzia Ejszyszki-Ostra Brama</h1>
-    <h4 style="color: grey">Obowiązkowa rejestracja dla wszystkich +37064622113, <span><a target="_blank"
-                                                                                       href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
-                                                                                       class="btn btn-primary">rejestracja online</a></span>, Organizator ks. Waldemar Szyrwinski <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a>   <div class="fb-share-button" data-href="https://ejszyszki-ostrabrama.github.io/"
-                                                                                                                                                                                                      data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fejszyszki-ostrabrama.github.io%2F&amp;src=sdkpreparse">Bendrinti</a></div>
-    </h4>
-    </center>
-		</p>
-    <!-- Header with Background Image -->
-    <header class="business-header">
+    /* Plakat styling */
+    .plakat-container {
+      position: relative;
+      margin-bottom: 1rem;
+    }
 
-      <div class="container">
+    .plakat-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-        <div class="row">
+    /* Mobile quick info overlay */
+    .mobile-quick-info {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      z-index: 10;
+    }
 
-          <div class="col-lg-12">
+    .quick-info-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
 
-          </div>
-        </div>
-      </div>
-    </header>
+    .quick-info-card h5 {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
 
+    .quick-info-card .btn {
+      margin: 2px;
+      min-width: 100px;
+      font-size: 0.75rem;
+      padding: 6px 12px;
+    }
 
+    /* Mobile info card */
+    .mobile-info-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 4px solid #007bff;
+    }
 
+    .mobile-text-content {
+      line-height: 1.4;
+    }
 
+    .mobile-text-content .lead {
+      font-size: 1rem;
+      font-weight: 500;
+    }
 
-    <!-- Page Content -->
-    <div class="container">
+    .mobile-text-content p {
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
 
-        <br/>
-        <img src="css/images/plakat2021.jpg" width="100%" style="border:1px solid #cccccc;">
+    /* Enhanced cards for mobile */
+    .card {
+      transition: transform 0.2s ease-in-out;
+    }
 
-      <iframe
-              src="https://docs.google.com/document/d/e/2PACX-1vQ49tQaba0JUorot7Qdy0d_h9Aj-yDqmrwglWhOYPstTfi-AgTPX6S8jRc5qRImLI72md_BrAlXLnLH/pub?embedded=true" width="100%" height="1400px" style="border: 1px solid #ccc;"></iframe>
+    .card:hover {
+      transform: translateY(-2px);
+    }
 
+    .card-img-top {
+      height: 180px;
+      object-fit: cover;
+    }
 
-      <div class="row">
+    /* Mobile social icons styling */
+    .mobile-social-icons {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 15px;
+    }
 
+    .mobile-social-link {
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
 
+    .mobile-social-link:hover {
+      transform: scale(1.1);
+      text-decoration: none;
+    }
 
+    /* Mobile responsive improvements */
+    @media (max-width: 991.98px) {
+      .navbar-toggler {
+        order: 1;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="juozapas_good.html"> <img class="card-img-top" src="css/images/juozapas_pl.PNG" alt=""></a>
-            <div class="card-body">
-              <a href="juozapas_good.html">  <h4 class="card-title">Papież Franciszek ogłosił &quot;Rok Świętego Józefa&quot;</h4></a>
-              <p class="card-text">
-                „Ukochany ojciec, ojciec czułości, w posłuszeństwie i w gościnności; ojciec twórczej
-                odwagi, robotnik, zawsze w cieniu” - tymi słowami Papież opisuje w czuły i poruszający sposób św.
-                Józefa.            </div>
+      .mobile-social-icons {
+        order: 2;
+      }
 
-          </div>
-        </div>
+      .navbar-brand {
+        order: 0;
+      }
+    }
 
+    @media (max-width: 767.98px) {
+      .container {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
 
+      .plakat-image {
+        border-radius: 4px;
+      }
 
+      .mobile-quick-info {
+        position: static;
+        margin-top: 10px;
+      }
 
+      .quick-info-card {
+        background: #fff;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_wskazowki.html"> <img class="card-img-top" src="css/images/instrukcija.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_wskazowki.html">  <h4 class="card-title">Wskazówki dla pielgrzymów</h4></a>
-              <p class="card-text">
-                Cel pielgrzymki i postawa pielgrzyma
+      .card-title {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
 
-                Celem pielgrzymki jest uwielbienie dobroci Bożej oraz oddanie czci Matce Chrystusa - Maryi.
-                Pielgrzymi poprzez trud pieszego pielgrzymowania pragną wypraszać łaski, przepraszać za grzechy, dziękować za otrzymane dobra, a także wypełnić zobowiązania podjęte z wdzięczności Bogu.</p>
-            </div>
+      .card-text {
+        font-size: 0.85rem;
+      }
 
-          </div>
-        </div>
+      .btn-sm {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+      }
 
+      .navbar-collapse .nav-item {
+        text-align: center;
+        padding: 3px 0;
+      }
 
+      /* Smaller cards on mobile */
+      .card-img-top {
+        height: 150px;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_leidimas.html"><img class="card-img-top" src="css/images/sutikimas.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_leidimas.html"> <h4 class="card-title">Pozwolenie rodziców albo opiekunów uczestniczyć w pielgrzymce Ejszyszki-Ostra Brama</h4></a>
-              <p class="card-text">Pozwolenie rodziców albo opiekunów uczestniczyć w pielgrzymce Ejszyszki-Ostra Brama</p>
-            </div>
+      .card-body {
+        padding: 12px;
+      }
+    }
 
-          </div>
-        </div>
+    @media (max-width: 575.98px) {
+      .quick-info-card .btn {
+        display: block;
+        width: 100%;
+        margin: 3px 0;
+        min-width: auto;
+        font-size: 0.8rem;
+      }
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="post_popiezius.html"> <img class="card-img-top" src="css/images/popiezius.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="post_popiezius.html">  <h4 class="card-title">Papież Franciszek przyjedzie z oficjalną wizytą na Litwę w dniach 22-23 września tego roku – poinformował w piątek Watykan.</h4></a>
-              <p class="card-text">
-                Ojciec Święty ma się spotkać z prezydent Litwy Dalią Grybauskaitė, wiernymi, młodzieżą, niepełnosprawnymi, zesłańcami i politycznymi więźniami, którzy ucierpieli w wyniku represji sowieckich oraz z przedstawicielami narodu żydowskiego, którzy przeżyli Holokaust.</p>
-            </div>
+      .mobile-header h1 {
+        font-size: 1.2rem;
+      }
 
-          </div>
-        </div>
+      .mobile-header .contact-info {
+        font-size: 0.7rem;
+      }
 
+      .mobile-header .btn {
+        font-size: 0.65rem;
+        padding: 3px 8px;
+      }
+    }
 
+    /* Desktop social icons hover effect */
+    @media (min-width: 992px) {
+      .nav-item a i.fa-facebook-official:hover {
+        color: #1465c9 !important;
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
 
-		  <div class="col-sm-4 my-4">
-          <div class="card">
-            <a href="marek.html">   <img class="card-img-top" src="css/images/marek2.jpg" alt=""></a>
-            <div class="card-body">
-              <a href="marek.html"> <h4 class="card-title"> Wskazowki dla pielgrzyma i Dziękujemy Panu Bogu za ś.p.
-                ks. Marka i pamiętamy o Nim w modlitwie podczas pielgrzymki</h4></a>
-              <p class="card-text">Dziękujemy Panu Bogu za ś.p. ks. Marka i pamiętamy o Nim w modlitwie podczas pielgrzymki
+      .nav-item a i.fa-instagram:hover {
+        color: #c13584 !important;
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
+    }
 
-                14 grudnia 2016 r. po ciężkiej chorobie zmarł ks. MAREK BUTKIEWICZ, wikariusz parafii pw. Odnalezienia Krzyża Świętego w Wilnie. Kapłan miał zaledwie 34 lata, spoczął na cmentarzu kalwaryjskim, nieopodal kościoła.</p>
-            </div>
+    /* Landscape phone optimization */
+    @media (max-width: 767.98px) and (orientation: landscape) {
+      .mobile-quick-info {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+      }
 
-          </div>
-        </div>
+      .quick-info-card {
+        padding: 8px;
+        background: rgba(255, 255, 255, 0.9);
+      }
 
+      .quick-info-card h5 {
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+      }
 
-      </div>
-      <!-- /.row -->
+      .quick-info-card .btn {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+      }
+    }
+  </style>
+</head>
 
-      <!-- /.row -->
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=795898857225737';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+
+    <!-- Mobile toggler button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Social media icons for mobile (visible only on mobile) -->
+    <div class="d-lg-none mobile-social-icons">
+      <a target="_blank" href="https://www.facebook.com/groups/123381584419824/" class="mobile-social-link">
+        <i class="fa fa-facebook-official" style="font-size:24px; color: #1877f2; margin-right: 8px;"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/" class="mobile-social-link">
+        <i class="fa fa-instagram" style="font-size:24px; color: #e4405f;"></i>
+      </a>
     </div>
-    <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Ejszyszki-Ostra Brama</p>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Aktualności
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="onas.html">O nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program_i_trasa.html">Program i trasa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="modlitwy.html">Modlitwy pielgrzyma</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="duchowie.html">Duchowe pielgrzymowanie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakty.html">Kontakty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index_lt.html">
+            <img src="css/images/lt.png" alt="lietuviškai" width="48px" height="32px">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img src="css/images/pl.jpg" alt="pl" width="48px" height="32px">
+          </a>
+        </li>
+
+        <!-- Social media icons for desktop (hidden on mobile) -->
+        <li class="nav-item d-none d-lg-block">
+          <a target="_blank" href="https://www.facebook.com/groups/123381584419824/">
+            <i class="fa fa-facebook-official" style="font-size:44px; color: #1877f2;"></i>
+          </a>
+        </li>
+        <li class="nav-item d-none d-lg-block">
+          <a target="_blank" href="https://www.instagram.com/peregrinatio_misericordiae_vn/">
+            <i class="fa fa-instagram" style="font-size:44px; margin-left: 10px; color: #e4405f;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Header (visible only on mobile) -->
+<div class="d-lg-none mobile-header">
+  <div class="container">
+    <h1 class="text-center">Pielgrzymka Miłosierdzia Ejszyszki-Ostra Brama</h1>
+    <div class="contact-info text-center">
+      <strong>Obowiązkowa rejestracja:</strong> +370 646 22113<br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+         target="_blank"
+         class="btn btn-primary btn-sm">
+        Rejestracja online
+      </a>
+    </div>
+    <div class="organizer-info text-center">
+      <strong>Organizator:</strong> ks. Waldemar Szyrwinski<br>
+      <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop Header (visible only on desktop) -->
+<div class="d-none d-lg-block desktop-header">
+  <div class="container text-center">
+    <h1>Pielgrzymka Miłosierdzia Ejszyszki-Ostra Brama</h1>
+    <h4 style="color: grey">
+      Obowiązkowa rejestracja dla wszystkich +37064622113,
+      <span><a target="_blank"
+               href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+               class="btn btn-primary">rejestracja online</a></span>,
+      Organizator ks. Waldemar Szyrwinski <a href="mailto:sirvvalde@gmail.com">sirvvalde@gmail.com</a>
+      <div class="fb-share-button" data-href="https://ejszyszki-ostrabrama.github.io/"
+           data-layout="button_count" data-size="large" data-mobile-iframe="true">
+        <a class="fb-xfbml-parse-ignore" target="_blank"
+           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fejszyszki-ostrabrama.github.io%2F&amp;src=sdkpreparse">Bendrinti</a>
       </div>
-      <!-- /.container -->
-    </footer>
+    </h4>
+  </div>
+</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Header with Background Image (desktop only) -->
+<header class="business-header d-none d-lg-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      </div>
+    </div>
+  </div>
+</header>
 
-  </body>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Mobile-first plakat section -->
+  <div class="row mt-2">
+    <div class="col-12">
+      <div class="plakat-container">
+        <img src="css/images/plakat2021.jpg"
+             class="img-fluid plakat-image"
+             alt="Pielgrzymka Miłosierdzia Ejszyszki-Ostra Brama 2021"
+             loading="lazy">
+
+        <!-- Quick info overlay for mobile -->
+        <div class="mobile-quick-info d-lg-none">
+          <div class="quick-info-card">
+            <h5 class="text-primary">Szybki kontakt</h5>
+            <a href="tel:+37064622113" class="btn btn-success btn-sm">
+              <i class="fa fa-phone"></i> Zadzwoń
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRBMXjVs_I2B99Gm-Lsqgipl9x3mg15XLcE6rT_5oV5kTZNw/viewform"
+               target="_blank"
+               class="btn btn-primary btn-sm">
+              <i class="fa fa-edit"></i> Zapisz się
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile-optimized current information -->
+  <div class="row mt-2 d-lg-none">
+    <div class="col-12">
+      <div class="mobile-info-card">
+        <h4 class="text-center text-primary mb-2" style="font-size: 1.1rem;">Aktualności 2025</h4>
+        <div class="mobile-text-content">
+          <p class="lead text-center">
+            <strong>XXXV piesza pielgrzymka miłosierdzia</strong>
+          </p>
+          <p class="text-center">
+            <strong>Termin:</strong> lipiec 2025<br>
+            <strong>Trasa:</strong> Ejszyszki → Ostra Brama<br>
+            <strong>Kontakt:</strong> ks. Waldemar Szyrwinski
+          </p>
+          <div class="text-center mt-2">
+            <a href="post_wskazowki.html" class="btn btn-outline-info btn-sm">
+              <i class="fa fa-info-circle"></i> Wskazówki
+            </a>
+            <a href="program_i_trasa.html" class="btn btn-outline-primary btn-sm">
+              <i class="fa fa-map"></i> Program
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full Google Doc iframe for desktop -->
+  <div class="row d-none d-lg-block">
+    <div class="col-12">
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ49tQaba0JUorot7Qdy0d_h9Aj-yDqmrwglWhOYPstTfi-AgTPX6S8jRc5qRImLI72md_BrAlXLnLH/pub?embedded=true"
+              width="100%"
+              height="1400px"
+              style="border: 1px solid #ccc;">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Cards section - improved for mobile -->
+  <div class="row mt-3">
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="juozapas_good.html">
+          <img class="card-img-top" src="css/images/juozapas_pl.PNG" alt="Rok Świętego Józefa">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="juozapas_good.html">
+            <h5 class="card-title">Rok Świętego Józefa</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Papież Franciszek ogłosił specjalny rok poświęcony św. Józefowi.
+          </p>
+          <a href="juozapas_good.html" class="btn btn-outline-primary btn-sm mt-auto">Czytaj więcej</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_wskazowki.html">
+          <img class="card-img-top" src="css/images/instrukcija.jpg" alt="Wskazówki">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_wskazowki.html">
+            <h5 class="card-title">Wskazówki dla pielgrzymów</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Jak się przygotować do pielgrzymki i co zabrać ze sobą.
+          </p>
+          <a href="post_wskazowki.html" class="btn btn-outline-primary btn-sm mt-auto">Czytaj więcej</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_leidimas.html">
+          <img class="card-img-top" src="css/images/sutikimas.jpg" alt="Pozwolenie">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_leidimas.html">
+            <h5 class="card-title">Pozwolenie rodziców</h5>
+          </a>
+          <p class="card-text flex-grow-1">Formularz zgody dla niepełnoletnich uczestników pielgrzymki</p>
+          <a href="post_leidimas.html" class="btn btn-outline-primary btn-sm mt-auto">Pobierz</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="post_popiezius.html">
+          <img class="card-img-top" src="css/images/popiezius.jpg" alt="Papież">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="post_popiezius.html">
+            <h5 class="card-title">Papież na Litwie</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Wizyta Ojca Świętego Franciszka na Litwie w 2018 roku.
+          </p>
+          <a href="post_popiezius.html" class="btn btn-outline-primary btn-sm mt-auto">Czytaj więcej</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 my-2">
+      <div class="card h-100 shadow-sm">
+        <a href="marek.html">
+          <img class="card-img-top" src="css/images/marek2.jpg" alt="Ks. Marek">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <a href="marek.html">
+            <h5 class="card-title">Pamięć ks. Marka</h5>
+          </a>
+          <p class="card-text flex-grow-1">
+            Wspomnienie kapłana, który organizował pielgrzymki.
+          </p>
+          <a href="marek.html" class="btn btn-outline-primary btn-sm mt-auto">Czytaj więcej</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Ejszyszki-Ostra Brama</p>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
 
 </html>
